@@ -72,7 +72,10 @@ markdown_extensions:
       generic: true
   - tables
 
-
+plugins:
+    - search
+    - encryptcontent:
+        global_password: 'your_password'
 
 
 extra_javascript:
