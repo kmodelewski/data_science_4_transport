@@ -1,0 +1,83 @@
+site_name: Transportation Data Analysis course
+
+nav:
+  - Lakehouse:
+    - 1.Lakehouse: 1-Lakehouse/1_Lakehouse.md
+    - 2.Medalion Architecture: 1-Lakehouse/1_0_MedalionArchitecture.md
+    - 3.Analytics Platforms: 1-Lakehouse/1_1_AnalyticsPlatforms.md
+    - 4.Delta Lake: 1-Lakehouse/1_2_DeltaLake.md
+  - Databricks:
+      - 1.Architecture: 2-Databricks/DB_PlatformArchitecture.md
+      - 2.Core parts: empty.md
+      - 3.Notebooks: empty.md
+
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - navigation.path
+    - content.code.select
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      pygments_lang_class: true
+      anchor_linenums: true
+      auto_title: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums: true
+
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+
+plugins:
+    - search: {}
+    - encryptcontent: {}
+
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+copyright: |
+  &copy; 2025 Krzysztof Modelewski
