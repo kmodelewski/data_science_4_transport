@@ -15,11 +15,3 @@ Bronze => Silver => Gold
 
 Data Lake (storage, external storage + warehouse (plus sql endpoint))
 
-## Snowflake
-
-
-
-## Databricks
-
-
-## MS Fabric
