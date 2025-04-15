@@ -3,7 +3,7 @@ site_name: Transportation Data Analysis course
 nav:
   - Lakehouse:
     - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
-    - 2.Medalion Architecture: 1_0_Lakehouse/1_0_medallion_architecture.md
+    - 2.Medalion Architecture: 1_Lakehouse/1_0_medallion_architecture.md
     - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
   - Databricks:
       - 1.Architecture: 2-Databricks/db_platform_architecture.md
