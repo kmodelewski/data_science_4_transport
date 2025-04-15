@@ -2,14 +2,18 @@ site_name: Transportation Data Analysis course
 
 nav:
   - Lakehouse:
-    - 1.Lakehouse: 1-Lakehouse/1_Lakehouse.md
-    - 2.Medalion Architecture: 1-Lakehouse/1_0_MedalionArchitecture.md
-    - 3.Analytics Platforms: 1-Lakehouse/1_1_AnalyticsPlatforms.md
-    - 4.Delta Lake: 1-Lakehouse/1_2_DeltaLake.md
+    - 1.Lakehouse: 1-Lakehouse/1_lakehouse.md
+    - 2.Medalion Architecture: 1-Lakehouse/1_0_medallion_architecture.md
+    - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
   - Databricks:
-      - 1.Architecture: 2-Databricks/DB_PlatformArchitecture.md
+      - 1.Architecture: 2-Databricks/db_platform_architecture.md
       - 2.Core parts: empty.md
       - 3.Notebooks: empty.md
+  - DeltaLake:
+      - 1.Introduction: 3-DeltaLake/1_0_delta_lake_introduction.md
+      - 2.Files processing: 3-DeltaLake/1_1_processing_files.md
+      - 3.Incremental loading: 3-DeltaLake/1_2_incremental_loading.md
+      - 4.Table types: 3-DeltaLake/1_3_managed_external_tables.md
 
 
 theme:
