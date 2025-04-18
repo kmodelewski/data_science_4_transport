@@ -2,7 +2,7 @@ site_name: Transportation Data Analysis course
 
 nav:
   - Lakehouse:
-    - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
+    - "<i class='fas fa-lock'></i> 1.Lakehouse": 1-Lakehouse/1_1_lakehouse.md
     - 2.Medalion Architecture: 1_Lakehouse/1_0_medallion_architecture.md
     - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
   - Databricks:
@@ -15,7 +15,7 @@ nav:
       - 3.Incremental loading: 3-DeltaLake/1_2_incremental_loading.md
       - 4.Table types: 3-DeltaLake/1_3_managed_external_tables.md
 
-
+#Fonts https://fontawesome.com/v4/icons/#payment
 theme:
   icon:
     repo: fontawesome/brands/gitlab
@@ -107,7 +107,7 @@ plugins:
       - skip-lightbox
 
   - encryptcontent:
-      title_prefix: '[LOCK]'
+      title_prefix: ''
       summary: 'This content is locked for lab users'
       password_button_text: 'ENTER'
       password_button: True
@@ -117,10 +117,19 @@ plugins:
       reload_scripts:
       - '#init-glightbox'
 
+#SOCIAL MEDIA
+#extra:
+#  social:
+#    - icon: fontawesome/solid/lock
+#      link: 1_Lakehouse/1_1_lakehouse.md
+#      name: Restricted Section
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 copyright: |
   &copy; 2025 Krzysztof Modelewski
+  
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css
   
 
