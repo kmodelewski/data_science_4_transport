@@ -20,6 +20,7 @@ theme:
   icon:
     repo: fontawesome/brands/gitlab
   name: material #eg. readthedocs
+  color_mode: dark
   logo: assets/iclogo.png
   features:
     - content.code.copy
