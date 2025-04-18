@@ -17,18 +17,25 @@ nav:
 
 
 theme:
+  icon:
+    repo: fontawesome/brands/gitlab
   name: material
+  logo: assets/iclogo.png
   features:
     - content.code.copy
     - content.tooltips
     - toc.follow
-    - toc.integrate
+    - toc.integrate #no right toc
     - navigation.top
-    - navigation.path
+    - navigation.path #breadcumbs alll integrated on the left side
     - content.code.select
     - content.code.annotate
     - search.suggest
     - search.highlight
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand #default expand left menu
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -48,8 +55,25 @@ theme:
 
 
 markdown_extensions:
-  - attr_list
-  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - admonition
+  - pymdownx.details
+
+  - pymdownx.emoji
   - pymdownx.blocks.caption
   - admonition
   - pymdownx.details
@@ -58,28 +82,45 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.superfences
+
   - pymdownx.highlight:
       pygments_lang_class: true
       anchor_linenums: true
       auto_title: true
       line_spans: __span
-      pygments_lang_class: true
       linenums: true
 
   - pymdownx.superfences:
       custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.arithmatex:
       generic: true
   - tables
 
+plugins:
+  - glightbox:
+     zoomable: true
+     draggable: true
+     skip_classes:
+      - skip-lightbox
 
+  - encryptcontent:
+      title_prefix: '[LOCK]'
+      summary: 'This content is locked for lab users'
+      password_button_text: 'ENTER'
+      password_button: True
+
+      password_inventory:
+        classified: 'labs2025'
+      reload_scripts:
+      - '#init-glightbox'
 
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 copyright: |
   &copy; 2025 Krzysztof Modelewski
+  
+
