@@ -19,7 +19,7 @@ nav:
 theme:
   icon:
     repo: fontawesome/brands/gitlab
-  name: material
+  name: material #eg. readthedocs
   logo: assets/iclogo.png
   features:
     - content.code.copy
