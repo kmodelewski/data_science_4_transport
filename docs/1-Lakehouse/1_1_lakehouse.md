@@ -1,7 +1,3 @@
----
-level: classified
----
-<i class="material-icons">face</i>
 ## Definitions
 1. **Data Lake** - scalable storage repositories (HDFS, Cloud e.g. ADSL Gen 2) that hold
 raw data. There are file based system that work on clusters

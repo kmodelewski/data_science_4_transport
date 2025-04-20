@@ -1,3 +1,6 @@
+---
+level: classified
+---
 ## External table
 
 Tabla with data in external location (on external storage like  Azure Storage Account -> abfss://)

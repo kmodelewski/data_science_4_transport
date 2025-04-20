@@ -1,3 +1,6 @@
+---
+level: classified
+---
 ## Increamental Loading
 Create table and load to it data incrementally
 
@@ -9,7 +12,7 @@ Limitations:
 
 
 
-### COPY INTO
+### copy into
 ```sql
 COPY INTO <table>
  FROM 'path'
@@ -19,7 +22,7 @@ COPY INTO <table>
 ```
 There is a _rescued_data column to indicate data that do not match schema
 
-### COPYING CSV
+### copying csv
 ```sql
 COPY INTO <table_name>
  (SELECT * ,
@@ -32,16 +35,16 @@ COPY_OPTIONS ('mergeSchema' = 'true')
 )
 ```
 
-### AUTOLOADER
+### autoloader
 ```sql
 
 
 ```
 
-### SPARK STRUCTURED STREAMING
+### spark structured streaming
 
 
-### DELTA LIVE TABLES
+### delta live tables
 
 
 

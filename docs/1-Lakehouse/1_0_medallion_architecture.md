@@ -2,7 +2,7 @@
 Design pattern to organize data in Lakehouse using three layers:
 Bronze => Silver => Gold
 
-![Medalion Architecture](assets/medalionArchitecture.png)
+![Medalion Architecture](assets/medalion_architecture.png)
 
 | Bronze                                                                    | Silver                                 | Gold                                                                                        |
 |:--------------------------------------------------------------------------|:---------------------------------------|:--------------------------------------------------------------------------------------------|

@@ -1,5 +1,4 @@
 ---
 level: classified
 ---
-## Delta lake standard
-
+# Reading API

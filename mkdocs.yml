@@ -2,18 +2,35 @@ site_name: Transportation Data Analysis course
 
 nav:
   - Lakehouse:
-    - "<i class='fas fa-lock'></i> 1.Lakehouse": 1-Lakehouse/1_1_lakehouse.md
-    - 2.Medalion Architecture: 1_Lakehouse/1_0_medallion_architecture.md
+    - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
+    - 2.Medallion Architecture: 1-Lakehouse/1_0_medallion_architecture.md
     - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
+    - 4.Spark: 1-Lakehouse/1_3_spark.md
+    - 5.Project: 1-Lakehouse/1_4_project.md
   - Databricks:
       - 1.Architecture: 2-Databricks/db_platform_architecture.md
       - 2.Core parts: empty.md
       - 3.Notebooks: empty.md
-  - DeltaLake:
+  - "<i class='fas fa-lock'></i>  Delta Lake" :
       - 1.Introduction: 3-DeltaLake/1_0_delta_lake_introduction.md
       - 2.Files processing: 3-DeltaLake/1_1_processing_files.md
       - 3.Incremental loading: 3-DeltaLake/1_2_incremental_loading.md
       - 4.Table types: 3-DeltaLake/1_3_managed_external_tables.md
+
+  - "<i class='fas fa-lock'></i>  Spark":
+      - 1.Introduction: 4-Spark/architecture.md
+      - Functions:
+          - dates: 4-Spark/dates.md
+          - window functions: 4-Spark/window_functions.md
+
+  - "<i class='fas fa-lock'></i>  Labs":
+      - Day 1:
+        - Summary: Labs/Day1/day1.md
+        - Python Data Types: Labs/Day1/python_data_types.md
+      - Day 2:
+        - Summary: Labs/Day2/day2.md
+      - Day 3:
+        - Summary: Labs/Day3/day3.md
 
 #Fonts https://fontawesome.com/v4/icons/#payment
 theme:
@@ -32,6 +49,7 @@ theme:
     - content.code.annotate
     - search.suggest
     - search.highlight
+    - search.share
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -100,6 +118,7 @@ markdown_extensions:
   - tables
 
 plugins:
+  - search
   - glightbox:
      zoomable: true
      draggable: true
