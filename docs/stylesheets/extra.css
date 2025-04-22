@@ -3,3 +3,7 @@
   max-width: 100%; /* or 100%, if you want to stretch to full-width */
 }
 
+
+  .justify-text {
+    text-align: justify;
+  }
