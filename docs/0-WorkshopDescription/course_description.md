@@ -29,6 +29,8 @@
     - Group by
     - Case When
     - Wyrażenia CTE
+    - Funcje okienkowe 
+    - Funkcje rankingowe
   - [Lab 4] Przetwarzanie plików JSON w SQL z IoT.
 
 ### Dzien 2
@@ -55,6 +57,7 @@
 3. Przejścia pomiędzy SQL, Pandas i Pyspark
 3. Optymalizacja zapisu danych
 4. [lab] Projekt końcowy
+5. 
 
 
 
