@@ -1,8 +1,8 @@
 site_name: Analiza danych w Transporcie
 
 nav:
-
-  - Kurs: 0-WorkshopDescription/course_description.md
+  - O kursie: index.md
+  - Plan Kursu: 0-WorkshopDescription/course_description.md
   - Lakehouse:
     - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
     - 2.Medallion Architecture: 1-Lakehouse/1_0_medallion_architecture.md

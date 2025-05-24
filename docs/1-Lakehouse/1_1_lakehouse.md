@@ -1,8 +1,7 @@
 ## Definitions
-1. **Data Lake** - scalable storage repositories (HDFS, Cloud e.g. ADSL Gen 2) that hold
-raw data. There are file based system that work on clusters
-2. **Data Warehouse** - storage for structured (tabular) data. Usually scaled up to one single machine. The lack of ACID. Poorly suited of BI queries, slow in perfomance.
-3. **Lakehouse** - or data lakehouse - Combines best from Data Lake and Data Warehouse
+1. **Data Lake** - skalowalna przestrzeń która przechowauje dane surowe. Data lake bazuje na systemach plików i umieszczana jest na klastrach (HDFS, Cloud e.g. ADSL Gen 2)
+2. **Data Warehouse** - przestrzeń do składowania danych ustrukturyzowanych (tabularycznych). Zwykle umieszczona na jednej maszynie, a co za tym idzie mało skalowalna.
+3. **Lakehouse** - or data lakehouse - Oferuje najlepsze cechy Data Lake i Data Warehouse.
 4. **Delta lake** - storage layer for lakehouse based on open standard Delta Lake (parquet data files  with file-based transatcion log for ACID transactions)
 5. **Databricks** - Unified platform built on Lakehouse Architecture with default format: Delta [Delta official](https://delta.io/ "Delta format official docs")
 
