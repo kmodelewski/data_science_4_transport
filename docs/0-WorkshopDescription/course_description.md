@@ -7,8 +7,8 @@
 
 ### Dzien 1
 1. Analityka Self Service 09:00 - 11:00
-    - Definicja i zastosowanie Lakehouse [Lakehouse](../1-Lakehouse/1_1_lakehouse.md)
-    - Architektura Medalionowa [Medallion Architecture ](../1-Lakehouse/1_0_medallion_architecture.md)
+    - Definicja i zastosowanie Lakehouse 
+    - Architektura Medalionowa 
     - Unity Catalog
     - Otwarty Format Delta i jego zastosowanie w analityce danych
     - [Lab 1] Właściwości formatu Delta
@@ -42,7 +42,7 @@
     - [Lab 2] Analiza danych z transportu publicznego (*.json/*.gtfs)
 
 3. Przetwarzenie równoległe w Apache Spark 15:00 - 16:00
-    - Wprowadzenie  [Spark](../1-Lakehouse/1_3_spark.md)
+
 
 
 ### Dzien 3

@@ -45,7 +45,7 @@ theme:
   icon:
     repo: fontawesome/brands/gitlab
   name: material #eg. readthedocs
-  logo: index_assets/predyktor.png
+  logo: index_assets/logo.jpg
   features:
     - content.code.copy
     - content.tooltips
