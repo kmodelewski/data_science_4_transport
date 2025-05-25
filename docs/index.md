@@ -74,12 +74,12 @@ zbudowane bezpośrednio na platformie Databricks</p>
 </div>
 
 
----
+
 
 ## 🔐 Dostęp do materiałów
 
 Uczestnicy kursu otrzymają dostęp do materiałów na początku zajęć.
 
----
+
 
 © 2025 Krzysztof Modelewski
