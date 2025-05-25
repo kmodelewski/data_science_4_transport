@@ -3,17 +3,17 @@ site_name: Analiza danych w Transporcie
 nav:
   - O kursie: index.md
   - Plan Kursu: 0-WorkshopDescription/course_description.md
-  - Lakehouse:
-    - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
-    - 2.Medallion Architecture: 1-Lakehouse/1_0_medallion_architecture.md
-    - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
-    - 4.Spark: 1-Lakehouse/1_3_spark.md
-    - 5.Project: 1-Lakehouse/1_4_project.md
-  - Databricks:
-      - 1.Architecture: 2-Databricks/db_platform_architecture.md
-      - Lab Python Data Types: 2-Databricks/python_data_types1.ipynb
-      - 2.Core parts: empty.md
-      - 3.Notebooks: empty.md
+#  - Lakehouse:
+#    - 1.Lakehouse: 1-Lakehouse/1_1_lakehouse.md
+#    - 2.Medallion Architecture: 1-Lakehouse/1_0_medallion_architecture.md
+#    - 3.Delta Lake: 1-Lakehouse/1_2_delta_lake.md
+#    - 4.Spark: 1-Lakehouse/1_3_spark.md
+#    - 5.Project: 1-Lakehouse/1_4_project.md
+#  - Databricks:
+#      - 1.Architecture: 2-Databricks/db_platform_architecture.md
+#      - Lab Python Data Types: 2-Databricks/python_data_types1.ipynb
+#      - 2.Core parts: empty.md
+#      - 3.Notebooks: empty.md
   - "<i class='fas fa-lock'></i>  Delta Lake" :
       - 1.Introduction: 3-DeltaLake/1_0_delta_lake_introduction.md
       - 2.Files processing: 3-DeltaLake/1_1_processing_files.md

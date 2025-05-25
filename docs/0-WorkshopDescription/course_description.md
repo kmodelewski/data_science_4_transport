@@ -29,9 +29,7 @@
     - Group by
     - Case When
     - Wyrażenia CTE
-    - Funcje okienkowe 
-    - Funkcje rankingowe
-  - [Lab 4] Przetwarzanie plików JSON w SQL z IoT.
+    - [Lab 4] Przetwarzanie plików JSON w SQL z IoT.
 
 ### Dzien 2
 1. Wprowadzenie analizy danych w języku Python 9:00 - 12:00
@@ -41,7 +39,6 @@
 
 2. Analiza danych 11:15 - 15:00
     - [Lab 2] Analiza danych z systemu wideodetekcji (*.csv)
-    - [Lab 2] Analiza danych z KPD (*.xlsx)
     - [Lab 2] Analiza danych z transportu publicznego (*.json/*.gtfs)
 
 3. Przetwarzenie równoległe w Apache Spark 15:00 - 16:00
@@ -57,14 +54,17 @@
 3. Przejścia pomiędzy SQL, Pandas i Pyspark
 3. Optymalizacja zapisu danych
 4. [lab] Projekt końcowy
-5. 
+
 
 
 
 ## Prowadzacy
 
-Krzysztof Modelewski jest 
+Krzysztof Modelewski jest absolwentem Wydziału Transportu Politechniki Warszawskiej o specjalności Telematyka Transportu. Uczestnik szkoleń
+w zakresie Inteligentnych Systemów Transportowych, m.in. projektowania sygnalizacji świetlnych. Autor książki “Inteligentny Transport”. Kierownik
+budowy „Krajowego Punktu Dostępowego do informacji o warunkach ruchu” https://kpd.gddkia.gov.pl/ . Posiadacz m.in. certyfikatów Project Man-
+agement Professional i OMG-Certified Expert in BPM (Business Process Management). Obecnie Senior Data Engineer zajmujący się zaawanso-
+waną analityką danych z wykorzystaniem technologii chmurowych m.in. Databricks, Microsoft Fabric i Snowflake.
 
 
-    - Końcowy projekt [Lakehouse](../1-Lakehouse/1_3_spark.md)
    

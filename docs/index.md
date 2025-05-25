@@ -12,7 +12,7 @@ wizualizację danych z dowolnych plików, baz danych, żródeł czasu rzeczywist
 
 
 
-<h2 style="text-align: center; font-weight: bold;">Przegląd kursu</h2>
+## Przegląd kursu
 
 
 
