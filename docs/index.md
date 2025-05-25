@@ -37,7 +37,8 @@ Wprowadzenie do architektury <strong>Lakehouse i Delta Lake</strong>. Analiza da
 </div>
 
 <div style="flex: 1; padding-right: 10px;">
- <p>Praca w interkatywnym środowisku notatników. Krok po kroku zapoznanie ze środowiskiem Databricks oraz </p>
+ <p>Praca w interkatywnym środowisku notatników. Krok po kroku zapoznanie ze środowiskiem Databricks oraz poznanie
+standardu DELTA LAKE</p>
  </div>
 
 
