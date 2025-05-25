@@ -62,9 +62,9 @@
 
 Krzysztof Modelewski jest absolwentem Wydziału Transportu Politechniki Warszawskiej o specjalności Telematyka Transportu. Uczestnik szkoleń
 w zakresie Inteligentnych Systemów Transportowych, m.in. projektowania sygnalizacji świetlnych. Autor książki “Inteligentny Transport”. Kierownik
-budowy „Krajowego Punktu Dostępowego do informacji o warunkach ruchu” https://kpd.gddkia.gov.pl/ . Posiadacz m.in. certyfikatów Project Man-
-agement Professional i OMG-Certified Expert in BPM (Business Process Management). Obecnie Senior Data Engineer zajmujący się zaawanso-
-waną analityką danych z wykorzystaniem technologii chmurowych m.in. Databricks, Microsoft Fabric i Snowflake.
+budowy „Krajowego Punktu Dostępowego do informacji o warunkach ruchu” https://kpd.gddkia.gov.pl/ . Posiadacz m.in. certyfikatów Project Management Professional 
+i OMG-Certified Expert in BPM (Business Process Management). Obecnie Senior Data Engineer zajmujący się zaawansowaną analityką danych z wykorzystaniem 
+technologii chmurowych m.in. Databricks, Microsoft Fabric i Snowflake.
 
 
    
