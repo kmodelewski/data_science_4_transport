@@ -38,7 +38,7 @@ Wprowadzenie do architektury <strong>Lakehouse i Delta Lake</strong>. Analiza da
 
 <div style="flex: 1; padding-right: 10px;">
  <p>Praca w interkatywnym środowisku notatników. Krok po kroku zapoznanie ze środowiskiem Databricks oraz poznanie
-standardu DELTA LAKE</p>
+standardu DELTA LAKE.</p>
  </div>
 
 
@@ -67,7 +67,7 @@ standardu DELTA LAKE</p>
 
 <div style="flex: 1; padding-right: 10px;">
  <p> Tworzenie przepływów (workflows) i zadań (jobs) oraz ich harmonogramowanie. Efektem końcowym będą raporty 
-zbudowane bezpośrednio na platformie Databricks</p>
+zbudowane bezpośrednio na platformie Databricks.</p>
  </div>
 
 
