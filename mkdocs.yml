@@ -45,7 +45,7 @@ theme:
   icon:
     repo: fontawesome/brands/gitlab
   name: material #eg. readthedocs
-  logo: assets/iclogo.png
+  logo: index_assets/iclogo.png
   features:
     - content.code.copy
     - content.tooltips
