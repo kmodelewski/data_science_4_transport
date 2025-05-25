@@ -66,7 +66,7 @@ budowy „Krajowego Punktu Dostępowego do informacji o warunkach ruchu” https
 i OMG-Certified Expert in BPM (Business Process Management). Obecnie Senior Data Engineer zajmujący się zaawansowaną analityką danych z wykorzystaniem 
 technologii chmurowych m.in. Databricks, Microsoft Fabric i Snowflake.
 
-![Predytktor](predyktor.jpg)
+
 
 
    
