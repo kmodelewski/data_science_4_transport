@@ -1,4 +1,4 @@
-## Definicje
+## **Definicje**
 1. **Data Lake** - skalowalna przestrzeń która przechowauje dane surowe. Data lake bazuje na systemach plików i umieszczana jest na klastrach (HDFS, Cloud e.g. ADSL Gen 2)
 2. **Data Warehouse** - przestrzeń do składowania danych ustrukturyzowanych (tabularycznych). Zwykle umieszczona na jednej maszynie, a co za tym idzie mało skalowalna.
 3. **Lakehouse** - or data lakehouse - Oferuje najlepsze cechy Data Lake i Data Warehouse.
@@ -8,7 +8,7 @@
 
 ![Lakehouse](assets/lakehouse.png)
 
-## Architektura Medalionu
+## **Architektura Medalionu**
 To wzorzec projektu służący do organizowania danych w Lakehouse. Składa się z trzech warstw:
 Bronze => Silver => Gold
 
@@ -25,22 +25,25 @@ Bronze => Silver => Gold
 
 Data Lake (storage, external storage + warehouse (plus sql endpoint))
 
-## Use Cases
-1. Reporting (Power BI)
+## **Przykłady wykorzystania Lakehouse**
+1. **Raportowanie dzienne**
 
 ![Reporting](assets/lakehouse_reporting.png)
 
 
 
-2. Real time management (bike sharing stations with ticketing system)
+2. **Zarządzanie w czasie rzeczywistym** (bike sharing stations with ticketing system)
 
 ![Reporting](assets/realtime_use_case.png)
 https://community.databricks.com/t5/technical-blog/real-time-vehicle-fleet-analytics-with-databricks-delta-live/ba-p/91422?lightbox-message-images-91422=11415i9EEB3BC3960C04C9
 
+3. **Demokratyzacja danych**
+Demokratyzacja danych to proces umożliwiający dostęp do danych wszystkim pracownikom organizacji, 
+niezależnie od ich umiejętności technicznych. W Lakehouse, dane są przechowywane w formacie Delta, co ułatwia ich udostępnianie i analizę.
 
-4. Data sharing 
-   - internal
-   - external
+5. **Udostępnienie danych**
+   - Delta sharing
+   - Clean rooms
 
 
 
