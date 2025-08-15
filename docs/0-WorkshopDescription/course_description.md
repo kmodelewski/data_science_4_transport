@@ -9,12 +9,13 @@
 1. Analityka Self Service 09:00 - 11:00
     - Definicja i zastosowanie Lakehouse 
     - Architektura Medalionowa 
-    - Unity Catalog
+    - Data governance
     - Otwarty Format Delta i jego zastosowanie w analityce danych
-    - [Lab 1] Właściwości formatu Delta
+    - Właściwości formatu Delta
+    - [Lab 1] Dane z KPD GDDKiA
 2. Wprowadzenie do platformy Databricks 11:15 - 14:00
    - Architektura (Data Plane i Control Plane)
-   - [Lab 2] Praca z notatnikami
+   - Praca z notatnikami
    - Obiekty Databricks
      - Klastry obliczeniowe (Compute)
      - Przepływy danych (Workflows)
@@ -23,13 +24,14 @@
      - Raporty (Dashboard)
    - Otoczenie Databricks:
      - MS Azure (Blob Storage, Key Vault)
-     - [Lab 3] Pierwszy projekt analityczny
+     - Amazon AWS (S3)
+     - [Lab 2] KPD GDDKiA w Databricks
 3. Wprowadzenie do analizy danych w SQL 14:15 - 16:00
   - Wprowadzenie do SQL
     - Group by
     - Case When
     - Wyrażenia CTE
-    - [Lab 4] Przetwarzanie plików JSON w SQL z IoT.
+    - [Lab 3] Przetwarzanie plików z KPD GDDKiA w SQL.
 
 ### Dzien 2
 1. Wprowadzenie analizy danych w języku Python 9:00 - 12:00
