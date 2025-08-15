@@ -6,56 +6,60 @@
 ## Harmonogram szkolenia
 
 ### Dzien 1
-1. Analityka Self Service 09:00 - 11:00
+1. **Analityka Self Service 09:00 - 11:00**
     - Definicja i zastosowanie Lakehouse 
     - Architektura Medalionowa 
     - Data governance
+    - Otwartość danych
+    - Przegląd platform Databricks, Snowflake, Microsoft Fabric
     - Otwarty Format Delta i jego zastosowanie w analityce danych
     - Właściwości formatu Delta
-    - [Lab 1] Dane z KPD GDDKiA
-2. Wprowadzenie do platformy Databricks 11:15 - 14:00
-   - Architektura (Data Plane i Control Plane)
-   - Praca z notatnikami
-   - Obiekty Databricks
-     - Klastry obliczeniowe (Compute)
-     - Przepływy danych (Workflows)
-     - Zadania (Jobs)
-     - Notatniki (Notebooks)
-     - Raporty (Dashboard)
-   - Otoczenie Databricks:
+    - [Lab 1] Standard Delta Lake
+2. **[Lab 2] Wprowadzenie do platformy Databricks - KPD GDDKiA 11:15 - 14:00**
+    - Infrastruktura jako kod (terraform)
+    - Architektura (Data Plane i Control Plane)
+    - Praca z notatnikami
+    - Obiekty Databricks
+        - Klastry obliczeniowe (Compute)
+        - Przepływy danych (Workflows)
+        - Zadania (Jobs i Pipelines)
+        - Notatniki (Notebooks)
+        - Raporty (Dashboard)
+   - **Otoczenie Databricks:**
      - MS Azure (Blob Storage, Key Vault)
      - Amazon AWS (S3)
-     - [Lab 2] KPD GDDKiA w Databricks
-3. Wprowadzenie do analizy danych w SQL 14:15 - 16:00
-  - Wprowadzenie do SQL
-    - Group by
-    - Case When
-    - Wyrażenia CTE
-    - [Lab 3] Przetwarzanie plików z KPD GDDKiA w SQL.
+     - Pobranie archiwalnych danych KPD GDDKiA do Databricks
+3. **Wprowadzenie do analizy danych w SQL 14:15 - 16:00**
+     - Group by
+     - Case When
+     - Common Table Expressions (CTE)
+     - Joins
+     - Window Functions
+     - [Lab 4] Przetwarzanie plików z KPD GDDKiA w SQL.
 
 ### Dzien 2
-1. Wprowadzenie analizy danych w języku Python 9:00 - 12:00
-  - [Lab 1] Python - typy danych
-  - [Lab 2] Python - pobieranie rozkładu jazdy przez API
-  - Wprowadzenie do bilbioteki Pandas
+1. **Wprowadzenie analizy danych w języku Python 9:00 - 12:00**
+       - Wprowadzenie do python 
+         - typy danych
+         - klasy i funkcje
+       - Przetwarzanie równoległe w Spark
+           - architektura Spark
+           - wyzwania przetwarzania w Big Data
+2. **Wprowadzenie do biblioteki Pandas i Pyspark 13:00 - 16:00**
+     - podstawowe transformacje w Pyspark
+     - praca z różnymi typami plików
+     - przejście pomiędzy SQL, Pandas i Pyspark
+     - Optymalizacja zapisu danych
 
-2. Analiza danych 11:15 - 15:00
-    - [Lab 2] Analiza danych z systemu wideodetekcji (*.csv)
-    - [Lab 2] Analiza danych z transportu publicznego (*.json/*.gtfs)
-
-3. Przetwarzenie równoległe w Apache Spark 15:00 - 16:00
-
-
-
+    
 ### Dzien 3
-1. Podstawowe transformacje w Pyspark
-   - filtrowanie
-   - grupowanie
-   - praca z różnymi typami plików
-2. [lab] Analiza danych w Pyspark
-3. Przejścia pomiędzy SQL, Pandas i Pyspark
-3. Optymalizacja zapisu danych
-4. [lab] Projekt końcowy
+1. **Analiza danych w transporcie publicznym (*.json)**
+    - zebranie danych z API (otwarte publicznie dane)
+    - utworzenie modelu danych
+    - utworzenie przepływu danych
+2. **Wizualizacja danych**
+3. **Udostępnianie danych (Delta Sharing, Clean Room)**
+
 
 
 
