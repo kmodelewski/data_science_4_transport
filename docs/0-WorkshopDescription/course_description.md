@@ -61,9 +61,6 @@
 3. **Udostępnianie danych (Delta Sharing, Clean Room)**
 
 
-
-
-
 ## Prowadzacy
 
 Krzysztof Modelewski jest absolwentem Wydziału Transportu Politechniki Warszawskiej o specjalności Telematyka Transportu. Uczestnik szkoleń
