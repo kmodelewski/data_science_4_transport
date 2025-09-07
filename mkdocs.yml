@@ -5,7 +5,6 @@ nav:
   - Plan Kursu: 0-WorkshopDescription/course_description.md
   - Przykładowe warsztaty:
     - Lakehouse: 1-PrzykladoweWarsztaty/example_workshops.md
-    - Clusters: 1-PrzykladoweWarsztaty/1_1_CreatingClusters.ipynb
     - Apache Spark: 1-PrzykladoweWarsztaty/spark_example.md
     - File processing: 1-PrzykladoweWarsztaty/1_1_processing_files.md
 

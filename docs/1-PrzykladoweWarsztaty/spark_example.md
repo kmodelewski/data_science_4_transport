@@ -1,13 +1,21 @@
 ## Apache spark engine
 
-
-Heavy workloads and growing business needs requires another aproach to computing. One mainframe computers are expensive
-and diffcult to upgrade. Below example of Apache spark architecture.
+Obliczenia na dużych zbiorach danych wymagają innego, równoległego podejścia do przetwarzania.  Powszechnie
+stosowanym systemem przetwarzania równoległego jest Apache Spark. Architektura spark opiera się
+na modelu master-slave. Główny węzeł (driver) zarządza zadaniami i koordynuje pracę węzłów roboczych (workers).
+Każdy węzeł roboczy składa się z wielu wykonawców (executors), które wykonują zadania równolegle.
 
 ![Laekhouse](assets/spark_arch.png)
 
-Partitioning (Huge table - partition - files). Subdividing data by column. Do not use partition for high 
-data cardinality use. load_date, country. Problem malych plikow. Avoid column with high skewness or null values.
+Partycjonowanie danych - jednym z najisottniejszych zagadnień w przetwarzaniu rozproszonym jest zminimalizownaie
+liczby przyczytanych danych (dane są fizycznie składowanie w plikach). Jednym z najwcześniejszych sposobów na
+optymalizację zapytań jest partycjonowanie danych. Partycjonowanie to podział dużej tabeli na mniejsze, bardziej
+zarządzalne części, zwane partycjami. Partycje są tworzone na podstawie wartości w jednej lub więcej kolumn
+tabeli. Dzięki temu, gdy zapytanie jest wykonywane, tylko odpowiednie partycje są odczytywane, co znacznie zmniejsza ilość
+przetwarzanych danych i poprawia wydajność zapytań.
+
+Dzisiejsze platformy przetwarzania bazujące na standardzie DELTA automatycznie zarządzają partycjonowaniem danych, czego
+przykładem jest np. Liquid Clustering. Zapewnia on opytamalną wielkość plików i zarządzanie nimi.
 
 
 |id | lane_no | vehicle_count | sys_load_date |
