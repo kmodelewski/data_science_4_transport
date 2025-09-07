@@ -1,6 +1,7 @@
-## window functions
+## Partycjonowanie w SQL
 
-
+Partycjonowanie, inaczej grupowanie, pozwala połączyć wyniki zapytan na różnych pozioach ogólności. Do partycjonowania
+służy klauzula *Over*. Over pozwala na wywołanie funkcji rankinowych, okienkowych i analitycznych.
 
 
 

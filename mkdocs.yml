@@ -4,42 +4,15 @@ nav:
   - O kursie: index.md
   - Plan Kursu: 0-WorkshopDescription/course_description.md
   - Przykładowe warsztaty:
-    - Środowisko analityczne:
-      - Lakehouse: 1-Przyklady/1_1_lakehouse.md
-      - Platforma analityczna: 1-Przyklady/1_1_databricks.md
-    - Analiza danych:
-      - Tworzenie klastra: 1-Przyklady/1_1_CreatingClusters.ipynb
-      - Analiza csv: 1-Przyklady/1_1_analiza_danych.ipynb
+    - Lakehouse: 1-PrzykladoweWarsztaty/example_workshops.md
+    - Clusters: 1-PrzykladoweWarsztaty/1_1_CreatingClusters.ipynb
+    - Apache Spark: 1-PrzykladoweWarsztaty/spark_example.md
+    - File processing: 1-PrzykladoweWarsztaty/1_1_processing_files.md
+
+  - "<i class='fas fa-lock'></i>  Materialy szkoleniowe":  2-Databricks/db_platform_architecture.md
 
 
-  - "<i class='fas fa-lock'></i>  Databricks" :
-      - 1.Architecture: 2-Databricks/db_platform_architecture.md
-      - Lab Python Data Types: 2-Databricks/python_data_types1.ipynb
-      - 2.Core parts: empty.md
-      - 3.Notebooks: empty.md
-  - "<i class='fas fa-lock'></i>  Delta Lake" :
-      - 1.Introduction: 3-DeltaLake/1_0_delta_lake_introduction.md
-      - 2.Files processing: 3-DeltaLake/1_1_processing_files.md
-      - 3.Incremental loading: 3-DeltaLake/1_2_incremental_loading.md
-      - 4.Table types: 3-DeltaLake/1_3_managed_external_tables.md
 
-  - "<i class='fas fa-lock'></i>  Spark":
-      - 1.Introduction: 4-Spark/architecture.md
-      - Functions:
-          - dates: 4-Spark/dates.md
-          - window functions: 4-Spark/window_functions.md
-
-  - "<i class='fas fa-lock'></i>  Labs":
-      - Day 1:
-        - Summary: Labs/Day1/day1.md
-        - Lab 1:
-          - Python Data Types: Labs/Day1/python_data_types.md
-          - Lab Python Data Types1: Labs/Day1/python_data_types1.ipynb
-          - Lab Python Data Types: Labs/Day1/python_data_types1.md
-      - Day 2:
-        - Summary: Labs/Day2/day2.md
-      - Day 3:
-        - Summary: Labs/Day3/day3.md
 
 
 
